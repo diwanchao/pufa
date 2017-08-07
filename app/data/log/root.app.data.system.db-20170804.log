@@ -1,1 +1,0 @@
-[2017-08-04 09:26:30] CDb::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'phone.global_slide' doesn't exist. The SQL statement executed was: SELECT * FROM global_slide as gs LEFT JOIN `file` as f ON gs.file=f.id WHERE gs.enable=1 ORDER BY f.id DESC.
